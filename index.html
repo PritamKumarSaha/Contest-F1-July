@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Contest 1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        * {
+            margin: 0px;
+        }
+        nav{
+            height: 87px;
+            background-color: black;
+            margin: 0px;
+            color: white;
+            font-size: 24px;
+            padding-top: 20px;
+            padding-left: 15px;
+        }
+        main{
+            padding-inline: 30px;
+        }
+        #learn-more{
+            width: 226px;
+            height: 58px;
+            background-color: #000;
+            font-family: Inter;
+            color: #FFF;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            border: none
+
+        }
+        h1{
+            color: #000
+            font-family: Inter;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 400;
+            font-height: normal;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+        tr{
+            border-collapse: collapse;
+        }
+        td{
+            padding: 10px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-collapse: collapse;
+        }
+        /* thead{
+            border-bottom: 1px solid black;
+        } */
+        tbody{
+            border-top: 1px solid black;
+        }
+        tfoot{
+            background-color: black;
+            color: white;
+        }
+        tfoot>tr>td{
+            color: #FFF;
+        }
+        .col-1{
+            width: 100px;
+        }
+        .col-2{
+            width: 200px;
+        }
+        .col-3{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        CompanyName.
+    </nav>
+    <br>
+    <br>
+    <main>
+    <section id="section-1">
+        <h1>
+            Heading 1
+        </h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br>
+        <br>
+        <a href="https://www.lipsum.com">
+            <button id="learn-more">Learn More</button>
+        </a>
+        
+    </section>
+    <br>
+    <section id="section-2">
+        <h1>Heading 2</h1>
+        <img src="https://plus.unsplash.com/premium_photo-1689620815933-3d4be25cd702?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="image" width="729px" height="911px"/>
+    </section>
+    <section id="ordered-list">
+        <h1>Ordered List</h1>
+        <ol>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit.</li>
+        </ol>
+    </section>
+    <section id="Unordered-list">
+        <h1>unordered-list</h1>
+        <li>Lorem ipsum dolor sit amet.</li>
+         
+    </section>
+    <section id="table">
+        <h1>Table</h1>
+        <table id="table1">
+            <thead>
+                <tr>
+                    <td class="header-cells col-1">S No.</td>
+                    <td class="header-cells col-2">Startup Name</td>
+                    <td class="header-cells col-3">Startup Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>WowIndia</td>
+                    <td>A startup with WOW Ideas</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Loreum ipsum</td>
+                    <td>loream Ipsum Text</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Loreum ipsum</td>
+                    <td>loream Ipsum Text</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Loreum ipsum</td>
+                    <td>loream Ipsum Text</td>
+                </tr>
+                
+                <tr>
+                    <td>5</td>
+                    <td>Loreum ipsum</td>
+                    <td>loream Ipsum Text</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Loreum ipsum</td>
+                    <td>loream Ipsum Text</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="footer-cells">7</td>
+                    <td class="footer-cells">Fina Footer</td>
+                    <td class="footer-cells">loream Ipsum Text</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+    </section>
+</main>
+</body>
+</html>
